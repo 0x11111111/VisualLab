@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{62749497-e4db-4bab-89ce-21de1d09d617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\algorithm">
+      <UniqueIdentifier>{a8665494-0e11-4378-81ee-e0b8247ee8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main program">
+      <UniqueIdentifier>{b5f510f8-0ca4-4578-a9c2-d1041f7b16bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stdafx">
+      <UniqueIdentifier>{04e21ecb-733a-430c-b517-7955268b9fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rendering pipeline">
+      <UniqueIdentifier>{c2263c21-4671-43fe-878c-5289c9011d42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main program\main.cpp">
+      <Filter>src\main program</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx\stdafx.cpp">
+      <Filter>src\stdafx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\stdafx\stdafx.h">
+      <Filter>src\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\Timer.hpp">
+      <Filter>src\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\vectorAlgorithm.h">
+      <Filter>src\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering pipeline\vtkRenderPipeline.h">
+      <Filter>src\rendering pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\meshTransform.h">
+      <Filter>src\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering pipeline\simpleRender.h">
+      <Filter>src\rendering pipeline</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
