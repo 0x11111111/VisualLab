@@ -6,6 +6,10 @@
 
 # Except for dll files in x64/Release
 !x64/Release/*.dll
+
+# Except for lib files in dependencies/lib
+!dependencies/lib/*.lib
+
 # Ignore all build configuration files
 *.user
 *.aps
