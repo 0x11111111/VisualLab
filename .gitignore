@@ -1,14 +1,7 @@
-# Except for dll files in x64/Release
-!x64/Release/*.dll
-
-# Except for lib files in dependencies/lib
-!dependencies/lib/*.lib
-
 # Ignore all files generated in Debug and Release directories
 [Bb]in/
 [Oo]bj/
 [Dd]ebug*/
-[Rr]elease*/
 
 # Ignore all build configuration files
 *.user
