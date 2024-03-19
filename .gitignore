@@ -1,7 +1,4 @@
 # Ignore all files generated in Debug and Release directories
-[Bb]in/
-[Oo]bj/
-[Dd]ebug*/
 
 # Ignore all build configuration files
 *.user
