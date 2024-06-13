@@ -74,3 +74,12 @@ _NCrunch_*
 *.dcm
 *.tiff
 *.raw
+*.mtl
+*.nii
+*.gz
+*.zip
+
+# Images
+*.jpg
+*.jpeg
+*.png
