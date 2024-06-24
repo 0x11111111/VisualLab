@@ -27,6 +27,12 @@
     <ClCompile Include="src\stdafx\stdafx.cpp">
       <Filter>src\stdafx</Filter>
     </ClCompile>
+    <ClCompile Include="src\main program\main_2.cpp">
+      <Filter>src\main program</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main program\main_3.cpp">
+      <Filter>src\main program</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\stdafx\stdafx.h">
@@ -52,6 +58,9 @@
     </ClInclude>
     <ClInclude Include="src\algorithm\IOManip.hpp">
       <Filter>src\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main program\pointcloud_front_recon.h">
+      <Filter>src\main program</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

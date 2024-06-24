@@ -100,6 +100,7 @@
 #include <MRMesh/MRExpected.h>
 #include <MRMesh/MRMeshBuilder.h>
 #include <MRMesh/MRVector.h>
+#include <MRMesh/MRPointCloud.h>
 
 #include <boost/optional.hpp>
 #include <Eigen/Geometry>
@@ -108,6 +109,12 @@
 #include <locale>
 #include <codecvt>
 #include <iomanip>
+#include <filesystem>
+
+#include <vtkNIFTIImageReader.h>
+#include <vtkMarchingCubes.h>
+#include <vtkSmoothPolyDataFilter.h>
+#include <vtkPLYWriter.h>
 
 #include "vectorAlgorithm.h"
 #include "Timer.hpp"
@@ -144,9 +151,9 @@ typedef boost::graph_traits<SurfaceMesh>::halfedge_descriptor   halfedge_descrip
 typedef boost::graph_traits<SurfaceMesh>::face_descriptor       face_descriptor;
 typedef boost::graph_traits<SurfaceMesh>::edge_descriptor       edge_descriptor;
 
-typedef CGAL::AABB_face_graph_triangle_primitive<SurfaceMesh> Primitive;
-typedef CGAL::AABB_traits<K, Primitive> AABB_triangle_traits;
-typedef CGAL::AABB_tree<AABB_triangle_traits> Tree;
+//typedef CGAL::AABB_face_graph_triangle_primitive<SurfaceMesh> Primitive;
+//typedef CGAL::AABB_traits<K, Primitive> AABB_triangle_traits;
+//typedef CGAL::AABB_tree<AABB_triangle_traits> Tree;
 
 namespace PMP = CGAL::Polygon_mesh_processing;
 
